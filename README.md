@@ -21,6 +21,12 @@ are in English. A small **extractive answer layer** returns the sentence of the
 top passage that is closest to the query. The project uses no LLM and makes no
 API calls.
 
+## See it running
+
+![polyglot-rag query --answer in Spanish, Hindi and Japanese](docs/img/query-3-languages.svg)
+
+Three real `query --answer` runs (default dense retriever, multilingual-e5-small on CPU) against the bundled English support FAQ, with the questions in Spanish, Hindi and Japanese. Output is unedited, misses included: the Hindi "how do I get my money back?" ranks `return-device` above `refund`, and the Japanese answer sentence is a neighbour of the one you'd want.
+
 ## Quick start
 
 ```bash
