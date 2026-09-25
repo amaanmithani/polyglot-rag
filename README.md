@@ -1,5 +1,7 @@
 # polyglot-rag
 
+> **Credits.** Built by Amaan Mithani with Claude (Anthropic) as the AI coding assistant.
+
 Multilingual retrieval for customer-support RAG, plus a 24-language accuracy
 table where every number comes from a committed JSON file.
 
